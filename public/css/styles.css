@@ -1,0 +1,83 @@
+header {
+    background-color: #EAC926;
+    font-family: 'Roboto', sans-serif;
+    width: 88%;
+    margin: auto;
+}
+
+main {
+    width: 90%;
+    margin: 10px;
+    margin: auto;
+}
+
+.contenedor-articulo {
+    border-top: 1px;
+    border-style: solid;
+    border-color: #ebebeb;
+    margin: 10px;
+    padding: 15px;
+    width: 40%;
+}
+
+.contenedor1 {
+    border-top: 1px;
+    border-top-style: solid;
+    border-color: #ebebeb;
+}
+
+.imagen-centrada {
+    background-size: cover;
+}
+
+p {
+    font-size: 12px;
+}
+
+.titulares {
+    font-size: 24px;
+}
+
+.precios {
+    font-size: 18px;
+}
+
+.descuentos {
+    font-size: 16px;
+    color: green;
+}
+
+.descripciones {
+    font-size: 16px;
+    color: grey;
+}
+
+.texto-centrado {
+    text-align: center;
+}
+
+
+.img01 {
+    width: 68%;
+    margin: auto;
+    text-align: center;
+}
+
+.img02 {
+    width: 88%;
+    margin: auto;
+}
+
+@media(max-width: 361px){
+    .descripciones {
+        display: none;}
+    li {
+        display: none;
+    }
+}
+
+@media(min-width: 481px){
+    body {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}
